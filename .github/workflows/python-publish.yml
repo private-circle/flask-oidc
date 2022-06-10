@@ -41,4 +41,5 @@ jobs:
         user: gitlab-pypi-token
         password: ${{ secrets.PYPI_API_TOKEN }}
         repository_url: https://gitlab.com/api/v4/projects/privatecircle%2Fmd-api/packages/pypi
+        verbose: true
 
